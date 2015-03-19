@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "https://github.com/mokagio/DDAntennaLogger"
+  s.homepage     = "https://github.com/longseespace/DDAntennaLogger"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/mokagio/DDAntennaLogger.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/longseespace/DDAntennaLogger.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,6 +131,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency "Antenna", "~> 2.0"
-  s.dependency "CocoaLumberjack", "1.9.1"
+  s.dependency "CocoaLumberjack", "= 2.0.0-beta4"
 
 end
